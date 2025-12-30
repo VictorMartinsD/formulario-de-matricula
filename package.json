@@ -1,0 +1,13 @@
+{
+  "name": "formulario-de-matricula",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Formulário de matrícula para a escola de educação infantil Estrelas do Amanhã",
+  "main": "index.html",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "latest"
+  }
+}
