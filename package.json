@@ -5,9 +5,15 @@
   "description": "Formulário de matrícula para a escola de educação infantil Estrelas do Amanhã",
   "main": "index.html",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{html,css,js}": "prettier --write"
   },
   "devDependencies": {
+    "husky": "latest",
+    "lint-staged": "latest",
     "prettier": "latest"
   }
 }
