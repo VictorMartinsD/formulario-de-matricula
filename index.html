@@ -164,6 +164,60 @@
                 </div>
               </div>
             </fieldset>
+
+            <fieldset class="guardian">
+              <legend>Informações do responsável</legend>
+
+              <div class="input-wrapper">
+                <label for="guardian">Nome do responsável</label
+                ><input type="text" id="guardian" name="guardian" /><small
+                  >Principal responsável legal e contato de emergência</small
+                >
+              </div>
+
+              <div class="input-wrapper">
+                <label for="phone">Telefone</label>
+                <input type="text" id="phone" name="phone" placeholder="(10) 9 8765-4321" />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" required />
+                <div class="error">
+                  <svg
+                    role="img"
+                    aria-labelledby="error-title"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title id="error-title">Ícone de alerta vermelho</title>
+                    <path
+                      d="M10 18.3333C14.6024 18.3333 18.3334 14.6023 18.3334 9.99996C18.3334 5.39759 14.6024 1.66663 10 1.66663C5.39765 1.66663 1.66669 5.39759 1.66669 9.99996C1.66669 14.6023 5.39765 18.3333 10 18.3333Z"
+                      stroke="#DC2626"
+                      stroke-width="1.25"
+                    />
+                    <path
+                      d="M9.99335 12.5H10.0008"
+                      stroke="#DC2626"
+                      stroke-width="1.66667"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 9.99996V6.66663"
+                      stroke="#DC2626"
+                      stroke-width="1.25"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span>Insira um e-mail válido</span>
+                </div>
+              </div>
+            </fieldset>
           </form>
         </div>
       </main>
@@ -173,7 +227,10 @@
           <header>
             <img src="assets/img/logo.svg" alt="Logo estrelas do amanhã" />
             <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
-            <p></p>
+            <p>
+              Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro
+              e estimulante.
+            </p>
           </header>
 
           <img
